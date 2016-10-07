@@ -1,0 +1,35 @@
+body {
+	background-color: rgb(0,155,155);
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 480px;
+	height: 700px;
+	background-color: rgb(200,10,100);
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+
+
+.button>input {
+	width: 100px;
+	height: 100px;
+	font-size: 35px;
+}
+
+#show {
+	width: 408px;
+	height: 100px;
+	font-size: 40px;
+	font-weight: blod;
+	margin-bottom: 5px;
+	text-align: right;
+
+}

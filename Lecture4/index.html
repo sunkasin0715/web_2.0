@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>計算機</title>
+    <meta charset="utf-8">
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <script src="calculator.js" type="text/javascript"></script>
+  </head>
+  <body>
+  	<div class="main">
+		<table>
+			<tr class="screen">
+				<td colspan="5"><input type="text" value="" id="show"></td>
+			</tr>
+  			<tr class="col1">
+  				<td class="button"><input type="button" value="7" onclick="button_7();"></td>
+  				<td class="button"><input type="button" value="8" onclick="button_8();"></td>
+  				<td class="button"><input type="button" value="9" onclick="button_9();"></td>
+  				<td class="button"><input type="button" value="/" onclick="sign_div();"></td>
+  			</tr>
+  			<tr class="col2">
+  				<td class="button"><input type="button" value="4" onclick="button_4();"></td>
+  				<td class="button"><input type="button" value="5" onclick="button_5();"></td>
+  				<td class="button"><input type="button" value="6" onclick="button_6();"></td>
+  				<td class="button"><input type="button" value="*" onclick="sign_multi();"></td>
+  			</tr>
+  			<tr class="col3">
+  				<td class="button"><input type="button" value="1" onclick="button_1();"></td>
+  				<td class="button"><input type="button" value="2" onclick="button_2();"></td>
+  				<td class="button"><input type="button" value="3" onclick="button_3();"></td>
+  				<td class="button"><input type="button" value="-" onclick="sign_minus();"></td>
+  			</tr>
+  			<tr class="col4">
+  				<td class="button"><input type="button" value="0" onclick="button_0();"></td>
+  				<td class="button"><input type="button" value="." onclick="sign_dot();"></td>
+  				<td class="button"><input type="button" value="<-" onclick="del();"></td>
+  				<td class="button"><input type="button" value="+" onclick="sign_plus();"></td>
+  			</tr>
+  			<tr class="col5">
+  				<td class="button"><input type="button" value="(" onclick="sign_left_bracket();"></td>
+  				<td class="button"><input type="button" value=")" onclick="sign_right_bracket();"></td>
+  				<td class="button"><input type="button" value="CE" onclick="clean();"></td>
+  				<td class="button"><input type="button" value="=" onclick="result();"></td>
+  			</tr>
+
+  		</table>  		
+  	</div>
+  </body>
+ </html>
